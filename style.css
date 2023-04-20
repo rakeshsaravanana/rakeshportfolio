@@ -1,0 +1,1289 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    /* overflow: hidden; */
+}
+
+/* colors
+#D3649F
+#666666
+#000000
+#FFFFFF
+*/
+
+body{
+    background-color:black;
+}
+
+.nav .logo a{
+    color:whitesmoke;
+    font-style: italic;
+    line-height: 50px;
+    margin-left: 10px;
+
+}
+.nav .logo a:hover{
+    font-size: 1.2rem;
+    color: #D3649F;
+    transition: 0.5s ease;
+}
+
+
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px whitesmoke solid;
+}
+
+.nav .unordered{
+    display: flex;
+    list-style: none;
+}
+
+.nav .unordered li a{
+    display: inline-block;
+    color:#D3649F ;
+    margin-right: 20px;
+    line-height: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+
+.nav .unordered li a:hover{
+    font-size: 1.4rem;
+    color: #666666;
+    transition: 1s;
+    border-bottom: 2px solid goldenrod;
+}
+
+
+.nav .openmenu{
+    font-size: 2rem;
+    margin: 10px;
+    cursor: pointer;
+    display: none;
+}
+ .nav .unordered .closemenu , .icons i{
+     font-size: 2rem;
+     display: none;
+     cursor: pointer;
+ }
+
+ .fa-linkedin:hover{ color: darkblue;}
+ .fa-instagram:hover{color: palevioletred;}
+ .fa-github:hover{color: orange;}
+ .fa-facebook:hover{color: blue;}
+
+/* section home */
+#home{
+    overflow:hidden;
+}
+.intro{
+    color:white;
+    text-align: center;
+    /* margin: 100px 0px; */
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+   margin-top:150px ;
+    
+}
+
+.intro h4{
+    color: white;
+    font-size: 2.3rem;
+ 
+    /* padding-bottom: 7px; */
+    font-family: -apple-system-headline;
+    
+}
+.intro h3{
+    color:#D3649F ;
+    font-size: 4rem;
+   font-family: -apple-system-subheadline;
+}
+
+.intro h3 span{
+    color: white;
+    font-size: 4.2rem;
+    font-family: -apple-system-caption1;
+}
+.intro h2{
+    font-size: 3.5rem;
+  
+}
+.intro h2 span{
+    color: #D3649F;
+    font-size: 4.2rem;
+    font-family: -apple-system-caption1;
+
+}
+
+.about-btn{
+    background-color: #D3649F;
+    padding: 10px 15px;
+    border-radius: 7px;
+    width: 120px;
+    color: white;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+
+
+}
+ 
+
+a .about-btn{
+   font-weight:bold;
+    font-size: 1rem ;
+    font-family: -apple-system-short-caption1;
+}
+
+
+.about-btn:hover{
+   
+    transition: 0.5s;
+    background-color:#666666;
+}
+
+/* section about me  */
+
+#about-me{
+    width: 95%;
+    height:400px;
+    background-color:black;
+    display: inline-flex;
+    overflow: hidden;
+    margin: 50px auto;
+    padding-left: 20px;
+    /* margin-left: 25px; */
+    border-radius:20px 10px 20px 10px; 
+    box-shadow:5px 5px grey;
+
+}
+.image img{
+    width: 250px;
+    height: 60vh;
+    margin-left: 16px;
+    margin-top: 15px;
+    border-radius: 0 10px;
+}
+
+.image-content{
+    display: block;
+    float: right;
+    margin-top: 15px;
+    letter-spacing: 1.5px;
+    font-size: 1.5rem;
+}
+
+.image-content p{
+    color:white;
+    margin-top: 15px;
+    padding-left: 40px;
+    font-family: -apple-system-short-caption1;
+    
+   
+
+}
+.image-content p span{
+    color:#D3649F;
+    font-style: italic;
+ }
+ .image-content h2{
+       margin-top: -10px;
+       color: white;
+       font-size: 1.4rem;
+       padding-left:40px ;
+       font-family: -apple-system-subheadline;
+ }
+
+ .image-content h1{
+     color: #D3649F;
+     display: block;
+     font-size: 1.3rem;
+     margin-left:85px;
+     font-family: -apple-system-subheadline;
+     margin-top: 10px;
+ }
+
+ .workbtn{
+    background-color: #D3649F;
+    padding: 10px 15px;
+    border-radius: 7px;
+    text-align: center;
+    align-items: center;
+    margin-left: 85px;
+    color: white;
+ }
+
+ .workbtn{
+     margin-top: 10px;
+     border: none;
+ }
+ .workbtn:hover{
+     background-color: #666666;
+ }
+
+ a .workbtn{
+     color: white;
+     font-size: 1.1rem bold;
+    font-family: -apple-system-short-caption1;
+ }
+ .workbtn a:hover{
+   
+    transition: 0.5s ease-in-out;
+ }
+
+ /* section working experience */
+ #working{
+    width: 95%;
+    height:400px;
+    background-color:black;
+    display: inline-flex;
+    overflow: hidden;
+    margin: 50px auto;
+    /* margin-left: 30px; */
+    border-radius:20px 10px 20px 10px; 
+    box-shadow:5px 5px grey;
+ }
+
+.workimg img{
+    width: 250px;
+    height: 60vh;
+    margin-left: 16px;
+    margin-top: 15px;
+    border-radius: 0 10px;
+}
+.work-contents{
+    display: block;
+    float: right;
+    margin-top: 15px;
+    letter-spacing: 1.5px;
+    font-size: 1.5rem;
+}
+.work-contents p{
+    color:white;
+    margin-top: 15px;
+    padding-left: 40px;
+    font-family: -apple-system-short-caption1;
+    font-size: 1.5rem;
+    
+}
+
+.work-contents span{
+    color:#D3649F;
+    font-style: italic;
+}
+
+.work-contents h2{
+    margin-top: -10px;
+    color: white;
+    font-size: 1.4rem;
+    padding-left:40px ;
+    padding-bottom: 8px;
+    font-family: -apple-system-short-caption1;
+}
+
+.work-contents h1{
+    color:white;
+    font-size: 1.3rem;
+    padding-left:40px;
+    font-family: -apple-system-short-caption1;
+}
+
+.work-contents h3{
+    margin-top: 8px;
+    color: white;
+    font-size: 1.3rem;
+    padding-left:40px;
+    font-family: -apple-system-subheadline;
+}
+
+.work-contents h3 span a{
+    color: #D3649F;
+    font-style: italic;
+
+}
+
+.work-contents h3 span a:hover{
+    color: #666666;
+}
+
+.contactbtn{
+    background-color: #D3649F;
+    padding: 10px 15px; 
+    border-radius: 7px;
+    text-align: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+}
+.contactbtn:hover{
+    background-color: #666666;
+}
+
+a .contactbtn {
+    color: white;
+    font-size: 1.2rem bold;
+   font-family: -apple-system-short-caption1;
+}
+
+.contactbtn a:hover{
+    font-size: 1rem bold;
+    transition: 0.5s ease-in-out;
+ }
+
+
+ /* section contact */
+
+ #contact{
+    width: 93%;
+    height:400px;
+    background-color:black;
+    display: inline-flex;
+    overflow: hidden;
+    margin: 50px auto;
+    /* margin-left: 30px; */
+    border-radius:20px 10px 20px 10px; 
+    box-shadow:5px 5px grey;
+ }
+
+ .contactpage {
+       margin:5% auto;
+      
+ }
+ .contactpage .name{
+       display: block;
+       margin-bottom: 8px;
+       padding: 5px 10px;
+       border-radius: 5px;
+outline: none;
+text-transform: capitalize;
+text-align: center;
+ }
+
+ .textarea{
+text-align: center;
+text-transform: capitalize;
+    resize: none;
+     bottom: none;
+     margin-left: -28px;
+     border-radius: 5px;
+     display: block;
+     outline: none;
+ }
+
+ .deliverbtn{
+      margin: 5%;
+      margin-left: 40px;
+      padding: 10px 20px;
+      border-radius: 7px;
+      text-align: center;
+      background-color:goldenrod;
+      border-radius: 5px;
+      border: none;
+ }
+ .deliverbtn:hover{
+     background-color:#D3649F;
+ }
+ a .deliverbtn {
+      color: black;
+    
+      font-weight: bold;
+ }
+
+
+ .delivericons h2{
+     color: #D3649F;
+     margin-left: 15px;
+     display: block;
+ }
+
+ .socialmedia{
+     display: flex;
+ }
+ .socialmedia i{
+     color: white;
+     margin-top: 10px;
+     margin-left: -25px;
+     padding-right: 50px;
+     font-size: 2.5rem;
+ }
+
+ /* section passion */
+
+
+#passion{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+   
+   border-bottom: 1px solid white;
+    justify-content: space-between;
+}
+
+.img1 img{
+ padding:0 20px ;
+width: 360px;
+
+}
+
+.img1 h1{
+    text-align: center;
+margin-top: 20px;
+margin-bottom: 30px;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+} 
+#footer{
+    background-color:black;
+    width: 100%;
+    height: 300px;
+    margin-top: 10px white;
+    display: inline-flex;
+    
+}
+
+.footer-links{
+    margin-top: 50px ;
+    margin-left: 50px;
+}
+.footer-links span a{
+      display: block;
+      color: white;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+}
+
+.footer-links span a:hover{
+    color: #D3649F;
+}
+
+ .footer-icons {
+    float: right;
+    margin-left: 60%;
+    margin-top: 10vh;
+    margin-right: 40px;
+}
+ .footer-icons i{
+    color: white;
+    display: block;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+
+}
+
+
+.developer h5{
+    color: white;
+    margin-bottom: 5px;
+    margin-left: 42%;
+    font-size: 1.2rem;
+
+    
+}
+.developer h3{
+    color:#D3649F;
+    margin-left: 45%;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+ 
+
+/* media query */
+@media screen and (max-width:800px){
+
+
+    body #home{
+        overflow: hidden;
+    
+    }
+
+.intro h4{
+    color: white;
+    font-size: 1.5rem;
+ 
+    /* padding-bottom: 7px; */
+    font-family: -apple-system-headline;
+    
+}
+.intro h3{
+    color:#D3649F ;
+    font-size: 2.3rem;
+   
+    font-family: -apple-system-subheadline;
+}
+.intro h3 span{
+    color: white;
+    font-size: 2.3rem;
+    font-family: -apple-system-caption1;
+}
+.intro h2{
+    font-size: 2.4rem;
+  
+}
+.intro h2 span{
+    color: #D3649F;
+    font-size: 2.5rem;
+    font-family: -apple-system-caption1;
+
+}
+
+.about-btn{
+    background-color: #D3649F;
+    padding: 10px 15px;
+    border-radius: 7px;
+    width: 110px;
+    color: white;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+
+
+}
+ 
+
+a .about-btn{
+   font-weight:bold;
+    font-size: 1rem ;
+    font-family: -apple-system-short-caption1;
+}
+
+
+    
+
+    .nav .unordered{
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        transition:top 1s ease;
+        background-color:black;
+        text-align: center;
+        align-items: center;
+        display: none;
+
+    }
+    .nav .unordered .closemenu{
+        display: block;
+        top: 20px;
+        right: 20px;
+        position: absolute;
+    }
+
+    .nav .openmenu{
+        display: block;
+    }
+
+    .icons i{
+        display: inline-block;
+        padding: 12px;
+    }
+
+   /* #about-me body {
+        margin-left: -40px;
+
+
+    } */
+    #about-me{
+        overflow-y: scroll;
+        width: 93%;
+
+        /* overflow-x: hidden; */
+        height: 100%;
+        /* height:400px; */
+        background-color:black;
+        display: flex;
+
+        flex-direction: column;
+        overflow: hidden;
+      
+        /* margin-left: 30px; */
+        border-radius:20px 10px 20px 10px; 
+        /* box-shadow:5px 5px grey; */
+    
+    }
+    .abtfull{
+        margin-left: -40px;
+    }
+    .image{
+        display: flex;
+        width: 300px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .image img{
+   
+       justify-content: center;
+       padding-left: 15px;
+       image-rendering:optimizeQuality;
+        border-radius: 100%;
+        margin: 0 auto;
+    }
+    
+    .image-content{
+        display: flex;
+        flex-direction: column;
+       
+        margin-top: 15px;
+        letter-spacing: 0.5px;
+        margin: 0 3px;
+        font-size: 1.5rem;
+    }
+    
+    .image-content p{
+        color:white;
+        font-size: 1.9rem;
+        justify-content: center;
+        
+        
+        flex-wrap:wrap;
+        margin-top: 15px;
+        padding-left: 40px;
+        font-family: -apple-system-short-caption1;
+        
+       
+    
+    }
+    .image-content p span{
+        color:#D3649F;
+        font-style: italic;
+     }
+     .image-content h2{
+           margin-top: -10px;
+           color: white;
+           font-size: 1.4rem;
+
+text-align: center;       
+    padding-left:40px ;
+    /* border-bottom: 1px solid white; */
+           font-family: -apple-system-subheadline;
+     }
+    
+     .image-content h1{
+         color: #D3649F;
+         display: block;
+         font-size: 1.3rem;
+         text-align: center;
+
+         margin-left:85px;
+         /* text-align: center; */
+         font-family: -apple-system-subheadline;
+         margin-top: 10px;
+     }
+    
+     .workbtn{
+        background-color: #D3649F;
+        /* padding: 10px; */
+        border-radius: 7px;
+        text-align: center;
+        align-items: center;
+        /* margin: 0 auto; */
+/* justify-content: center; */
+        color: white;
+     }
+    .wrkbtns{
+        justify-content: center;
+        margin: 0 auto;
+        /* margin: 25px 0; */
+    }
+     .workbtn{
+         margin-top: 10px;
+         /* justify-content: center; */
+         border: none;
+         margin-bottom: 20px;
+     }
+     .workbtn:hover{
+         background-color: #666666;
+     }
+     .skill{
+         justify-content: center;
+         display: flex;
+         flex-direction: column;
+         margin-left: -80px;
+     }
+         
+ #working{
+    width: 100%;
+    height:100%;
+    background-color:black;
+    display: flex;
+    
+overflow-x: hidden;
+ 
+    flex-direction: column;
+
+    margin: 0px auto;
+    justify-content: center;
+    
+    border-radius:20px 10px 20px 10px; 
+    /* box-shadow:5px 5px grey; */
+
+ }
+ 
+
+    .workimg img{
+        justify-content: center;
+       
+        width: 250px;
+        display: flex;
+        height: 60vh;
+    margin: 0 auto;
+        border-radius: 0 10px;
+    }
+    .work-contents{
+     
+        margin-top: 10px;
+        letter-spacing: 1.5px;
+        font-size: 1.3rem;
+        padding-right: 40px;
+    }
+    .work-contents p{
+        color:white;
+        margin-top: 25px;
+        padding-left: 40px;
+
+        font-family: -apple-system-short-caption1;
+        font-size: 1.4rem;
+        
+    }
+    
+    .work-contents span{
+        color:#D3649F;
+        font-style: italic;
+    }
+    
+    .work-contents h2{
+        margin-top: 10px;
+        color: white;
+        font-size: 1.4rem;
+        /* padding-left:40px ; */
+        padding-bottom: 8px;
+        font-family: -apple-system-short-caption1;
+    }
+    
+    .work-contents h1{
+        color:white;
+        font-size: 1.3rem;
+        /* padding-left:40px; */
+        font-family: -apple-system-short-caption1;
+    }
+    
+    .work-contents h3{
+        margin-top: 8px;
+        color: white;
+        font-size: 1.3rem;
+        /* padding-left:40px; */
+        font-family: -apple-system-subheadline;
+    }
+    
+    .work-contents h3 span a{
+        color: #D3649F;
+        font-style: italic;
+     
+    
+    }
+    
+    .work-contents h3 span a:hover{
+        color: #666666;
+    }
+    .contactbtn{
+        margin-bottom: 20px;
+        font-size: 20px;
+        border-radius:80px;
+        padding: 10px 55px;
+    }
+
+    #contact{
+        width: 93%;
+        height:400px;
+        background-color:black;
+        display: inline-flex;
+        overflow-x:hidden;
+        margin: 50px auto;
+     
+        border-radius:20px 10px 20px 10px; 
+        box-shadow:5px 5px grey;
+     }
+    
+     .contactpage {
+           margin:5% auto;
+          
+     }
+     .contactpage .name{
+           display: block;
+           margin-bottom: 8px;
+           padding: 5px 10px;
+           border-radius: 5px;
+    outline: none;
+    text-transform: capitalize;
+    text-align: center;
+     }
+    
+     .textarea{
+    text-align: center;
+    text-transform: capitalize;
+        resize: none;
+         bottom: none;
+         margin-left: -28px;
+         border-radius: 5px;
+         display: block;
+         outline: none;
+     }
+    
+     .deliverbtn{
+          margin: 5%;
+          margin-left: 40px;
+          padding: 10px 20px;
+          border-radius: 7px;
+          text-align: center;
+          background-color:goldenrod;
+          border-radius: 5px;
+          border: none;
+     }
+     .deliverbtn:hover{
+         background-color:#D3649F;
+     }
+     a .deliverbtn {
+          color: black;
+        
+          font-weight: bold;
+     }
+    
+    
+     .delivericons h2{
+         color: #D3649F;
+         margin-left: 15px;
+         display: block;
+     }
+    
+     .socialmedia{
+         display: flex;
+     }
+     .socialmedia i{
+         color: white;
+         margin-top: 10px;
+         margin-left: -25px;
+         padding-right: 50px;
+         font-size: 2.5rem;
+     }
+        
+
+
+#passion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   margin-top: 50px;
+    overflow-x: hidden;
+   border-bottom: 1px solid rgb(137, 132, 207);
+    justify-content: space-between;
+}
+
+.img1 img{
+ padding:0 20px ;
+
+width: 360px;
+display: flex;
+margin: 0 auto;
+justify-content: center;
+
+}
+
+.img1 h1{
+    text-align: center;
+margin-top: 20px;
+margin-bottom: 30px;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+} 
+    
+
+    
+    #footer{
+        background-color:black;
+        width: 100%;
+        height: 300px;
+        margin-top: 10px white;
+        display: inline-flex;
+        
+    }
+    
+    .footer-links{
+        margin-top: 50px ;
+        margin-left: 50px;
+    }
+    .footer-links span a{
+          display: block;
+          color: white;
+          margin-bottom: 10px;
+          font-size: 1.2rem;
+    }
+    
+    .footer-links span a:hover{
+        color: #D3649F;
+    }
+    
+     .footer-icons {
+        float: right;
+        margin-left: 60%;
+        margin-top: 10vh;
+        margin-right: 40px;
+    }
+     .footer-icons i{
+        color: white;
+        display: block;
+        padding-bottom: 10px;
+        font-size: 1.5rem;
+    
+    }
+    
+    
+    .developer h5{
+        color: white;
+        margin-bottom: 5px;
+        margin-left: 42%;
+        font-size: 1.2rem;
+    
+        
+    }
+    .developer h3{
+        color:#D3649F;
+        margin-left: 45%;
+        margin-bottom: 30px;
+        font-size: 1rem;
+    }
+     
+    
+}
+
+
+
+@media screen and (max-width:480px){
+
+    .intro h4{
+        color: white;
+        font-size: 1rem;
+        margin:8px 0;
+        /* padding-bottom: 7px; */
+        font-family: -apple-system-headline;
+        
+    }
+    .intro h3{
+        margin-bottom: 8px;
+        color:#D3649F ;
+        font-size: 1.5rem;
+        margin-bottom: 8px;
+        font-family: -apple-system-subheadline;
+    }
+    .intro h3 span{
+        color: white;
+        font-size: 1.7rem;
+        font-family: -apple-system-caption1;
+    }
+    .intro h2{
+        font-size: 1.4rem;
+        margin-bottom: 8px;
+    }
+    .intro h2 span{
+        color: #D3649F;
+        font-size: 1.7rem;
+        font-family: -apple-system-caption1;
+    
+    }
+    
+    .about-btn{
+        background-color: #D3649F;
+        padding: 10px 15px;
+        border-radius: 7px;
+        width: 110px;
+        color: white;
+        border: none;
+        margin-top: 5px;
+        cursor: pointer;
+    
+    
+    }
+     
+    
+    a .about-btn{
+       font-weight:bold;
+        font-size: 1rem ;
+        font-family: -apple-system-short-caption1;
+    }
+    
+    .image-content p{
+        color:white;
+        font-size: 1.3rem;
+      justify-content: center;
+        
+        
+        flex-wrap:wrap;
+        margin-top: 15px;
+        padding-left: 40px;
+        font-family: -apple-system-short-caption1;
+        
+       
+    
+    }
+
+     
+    #working{
+        width: 100%;
+        height:100%;
+        background-color:black;
+        display: flex;
+        overflow-x: hidden;
+        flex-direction: column;
+        margin: 0px auto;
+        justify-content: center;
+       border-radius:20px 10px 20px 10px; 
+       
+    
+     }
+     
+    
+        .workimg img{
+            justify-content: center;
+            width: 200px;
+            display: flex;
+            height: 60vh;
+            margin: 0 auto;
+            border-radius: 0 10px;
+        }
+        .work-contents{
+            margin-top: 10px;
+            letter-spacing: 1.5px;
+            font-size: 1.1rem;
+            padding-right: 40px;
+        }
+        .work-contents p{
+            color:white;
+            margin-top: 25px;
+            padding-left: 40px;
+           font-family: -apple-system-short-caption1;
+            font-size: 1.2rem;
+            
+        }
+        
+        .work-contents span{
+            color:#D3649F;
+            font-style: italic;
+        }
+        
+        .work-contents h2{
+            margin-top: 10px;
+            color: white;
+            font-size: 1.2rem;
+            /* padding-left:40px ; */
+            padding-bottom: 8px;
+            font-family: -apple-system-short-caption1;
+        }
+        
+        .work-contents h1{
+            color:white;
+            font-size: 1.1rem;
+            /* padding-left:40px; */
+            font-family: -apple-system-short-caption1;
+        }
+        
+        .work-contents h3{
+            margin-top: 8px;
+            color: white;
+            font-size: 1.3rem;
+            /* padding-left:40px; */
+            font-family: -apple-system-subheadline;
+        }
+        
+        .work-contents h3 span a{
+            color: #D3649F;
+            font-style: italic;
+         
+        
+        }
+        
+        .work-contents h3 span a:hover{
+            color: #666666;
+        }
+        .contactbtn{
+            margin-bottom: 20px;
+            font-size: 18px;
+            border-radius:10px;
+            padding: 10px 30px;
+        }
+        
+    
+    
+    
+ 
+        #contact{
+            width: 95%;
+            height:400px;
+            background-color:black;
+            display: inline-flex;
+            overflow: hidden;
+            border-radius:20px 10px 20px 10px; 
+            /* box-shadow:5px 5px rgba(37, 255, 237, 0.582); */
+}
+        
+         .contactpage {
+               margin:5% auto;
+               padding-left: 50px;
+              
+         }
+         .contactpage .name{
+               display: block;
+               margin-bottom: 8px;
+               padding: 5px 10px;
+               border-radius: 5px;
+        outline: none;
+        text-transform: capitalize;
+        text-align: center;
+         }
+        
+         .textarea{
+        text-align: center;
+        text-transform: capitalize;
+            resize: none;
+             bottom: none;
+             margin-left: -16px;
+             border-radius: 5px;
+             display: block;
+             outline: none;
+         }
+        
+         .deliverbtn{
+              /* margin: 5%; */
+              margin-left: 50px;
+              /* margin-left: 40px;
+               */
+              padding: 10px 20px;
+              border-radius: 7px;
+              text-align: center;
+              background-color:goldenrod;
+              border-radius: 5px;
+              border: none;
+         }
+         .deliverbtn:hover{
+             background-color:#D3649F;
+         }
+         a .deliverbtn {
+              color: black;
+            
+              font-weight: bold;
+         }
+        
+        
+         .delivericons h2{
+             color: #D3649F;
+             margin-left: 15px;
+             display: block;
+         }
+        
+         .socialmedia{
+             display: flex;
+         }
+         .socialmedia i{
+             color: white;
+             margin-top: 10px;
+             margin-left: -25px;
+             padding-right: 50px;
+             font-size: 2.5rem;
+         }
+           
+#passion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   margin-top: 50px;
+   
+   border-bottom: 1px solid rgb(137, 132, 207);
+    justify-content: space-between;
+}
+
+.img1 img{
+ padding:0 10px ;
+width: 300px;
+
+}
+
+.img1 h1{
+    text-align: center;
+margin-top: 20px;
+margin-bottom: 30px;
+    font-size:30px;
+    color: #fff;
+    text-transform: uppercase;
+} 
+     
+#footer{
+    background-color:black;
+    width: 100%;
+    height: 300px;
+    margin-top: 10px white;
+    display: inline-flex;
+    
+}
+
+.footer-links{
+    margin-top: 50px ;
+    margin-left: 18px;
+}
+.footer-links span a{
+      display: block;
+      color: white;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+}
+
+.footer-links span a:hover{
+    color: #D3649F;
+}
+
+ .footer-icons {
+    float: right;
+    margin-left: 50%;
+    margin-top: 10vh;
+    margin-right: 40px;
+}
+ .footer-icons i{
+    color: white;
+    display: block;
+    padding-bottom: 25px;
+    font-size: 1.5rem;
+ 
+
+}
+
+
+.developer h5{
+    color: white;
+    margin-bottom: 5px;
+   margin-left:30%;
+   font-size: 0.9rem;
+
+    
+}
+.developer h3{
+    color:#D3649F;
+    margin-left: 37%;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+}
+ 
+}
