@@ -152,6 +152,11 @@ a .about-btn{
     background-color:#666666;
 }
 
+
+    .icons a{
+        color: white;
+    }
+
 /* section about me  */
 
 #about-me{
