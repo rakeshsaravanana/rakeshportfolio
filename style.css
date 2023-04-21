@@ -152,11 +152,6 @@ a .about-btn{
     background-color:#666666;
 }
 
-
-    .icons a{
-        color: white;
-    }
-
 /* section about me  */
 
 #about-me{
@@ -592,6 +587,10 @@ a .about-btn{
 
     .nav .openmenu{
         display: block;
+    }
+
+    .icons a{
+        color: white;
     }
 
     .icons i{
