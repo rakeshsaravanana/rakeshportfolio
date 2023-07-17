@@ -1176,7 +1176,7 @@ margin-bottom: 30px;
               margin-left: 50px;
               /* margin-left: 40px;
                */
-              padding: 10px 25px;
+              padding: 10px 28px;
               border-radius: 7px;
               text-align: center;
               background-color:goldenrod;
@@ -1196,6 +1196,7 @@ margin-bottom: 30px;
          .delivericons h2{
              color: #D3649F;
              margin-left: 15px;
+             margin-top: 20px;
              display: block;
          }
         
