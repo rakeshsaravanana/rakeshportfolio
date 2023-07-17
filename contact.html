@@ -31,19 +31,13 @@
 
 <section id="contact">
      <div class="contactpage">
-         <input type="text" name="" id="" class="name" placeholder="username">
-         <input type="text" class="name" placeholder="mailid" >
-         
-
-         <textarea name="" id="" cols="30" rows="5" class="textarea" placeholder="write something"></textarea>
-
-         <!-- <button class="deliverbtn">
-             <a href="rakeshrockyy2001@gmail.com">Deliver</a>
-         </button> -->
-
-         <a href="">
-             <button class="deliverbtn">Deliver</button>
-         </a>
+         <form   method="post" action="data.php">
+            <input type="text" name="username" id="" class="name" placeholder="username">
+            <input type="text" name="email" class="name" placeholder="mailid" >
+            <textarea name="para" id="" cols="30" rows="5" class="textarea" placeholder="write something"></textarea>
+            <input type="submit" class="deliverbtn" value="Deliver" name="submit">
+        
+         </form>
 
          <div class="delivericons">
              <h2>Follow me on</h2>
