@@ -385,7 +385,7 @@ text-transform: capitalize;
  .deliverbtn{
       margin: 5%;
       margin-left: 40px;
-      padding: 10px 20px;
+      padding: 10px 25px;
       border-radius: 7px;
       text-align: center;
       background-color:goldenrod;
@@ -1137,7 +1137,7 @@ margin-bottom: 30px;
  
         #contact{
             width: 95%;
-            height:400px;
+            height:450px;
             background-color:black;
             display: inline-flex;
             overflow: hidden;
